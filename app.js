@@ -15,7 +15,7 @@ const date = require(__dirname + "/date.js");
 // Variables for code
 const app = express();
 var items = ["Buy Food", "Cook Food", "Eat Food"];
-const SHEET_ID = "1OdC4eZ1NKemAbx8-Tgducpoyw7goNjWsr8RcPdwxOao";
+const SHEET_ID = // Add sheet id;
 
 // Set upody-parser and EJS
 app.use(bodyParser.urlencoded({ extended: true }));
